@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kathiravan's Portfolio - Full-Stack Development, UI/UX Designer & Software Engineer">
+    <meta name="author" content="Kathiravan">
+    <meta name="keywords" content="Full-Stack Development, UI/UX Design, Software Engineering, Web Development, Portfolio, Designer, Developer">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff"> <!-- Sets a theme color for browsers -->
+
+    <!-- Open Graph Metadata for Social Media Sharing -->
+    <meta property="og:title" content="Kathiravan's Portfolio - Full-Stack Developer & UI/UX Designer">
+    <meta property="og:description" content="Showcasing Full-Stack Development, UI/UX Design, and Software Engineering Projects by Kathiravan">
+    <meta property="og:image" content="portfolio/img/img2.jpg"> <!-- Update the path for social preview image -->
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@kathiravan1507">
+    <meta name="twitter:creator" content="@kathiravan1507">
+    <meta name="twitter:title" content="Kathiravan's Portfolio - UI/UX Designer & Software Engineer">
+    <meta name="twitter:description" content="Explore UI/UX Designs and Full-Stack Projects by Kathiravan">
+    <meta name="twitter:image" content="portfolio/img/img2.jpg"> <!-- Update the path for Twitter preview image -->
+
+    <!-- Title -->
+    <title>Kathiravan's Portfolio</title>
+
+    <!-- Stylesheets -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img\portfolio.png" type="image/png"> <!-- Ensure the favicon path is correct -->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Modernizr for Feature Detection -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" defer></script>
+
+    <!-- Preconnects for Faster Resource Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- DNS Prefetch for Third-Party Content -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
+    <!-- Critical CSS Inline for Performance (Optional) -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script> <!-- Add jQuery if needed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+</head>
+
+
+<body>
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">KATHIRFOLIO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <section id="home" class="hero-content">
+        <div class="falling-stars"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center" data-aos="fade-right">
+                    <h1 class="display-4">Hi, I'm Kathiravan</h1>
+                    <p class="text-light">UI/UX Designer & Software Engineer</p>
+                    <p class="text-light">I am a <span class="typing-container" id="typing-effect"></span></p>
+                    <p class="about-text">Passionate about creating intuitive designs and developing sleek, functional
+                        applications. I love solving challenges and enhancing user experiences.</p>
+                    <div class="text-center">
+                        <a href="https://drive.google.com/file/d/1VWBfqwcb-x28AvlMEXthx3m-7vCkL9NU/view?usp=sharing"
+                            class="cta-button">RESUME</a>
+                    </div>
+                    <!-- Social Media Icons -->
+                    <!-- Social Media Icons -->
+                    <div class="social-icons mt-4">
+                        <a href="https://Wa.me/+916380201679" target="_blank" class="social-icon whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kathiravan-sachin-95a9a02a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" class="social-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://youtube.com/@mediaportal-i6k?si=uJ7wLQB5gDgFCutd" target="_blank"
+                            class="social-icon youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.instagram.com/k_kathiravan_sachin/profilecard/?igsh=MWdpdDFtbnpqc211aA=="
+                            target="_blank" class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="social-icon gmail">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <!-- GitHub Icon -->
+                        <a href="https://github.com/your-github-username" target="_blank" class="social-icon github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <center>
+                        <!-- Image Section with Shatter Effect -->
+                        <div class="image-container" onclick="shatterImage(event)">
+                            <img src="img/img2.jpg"
+                                alt="Image" id="shatterImage">
+
+                        </div>
+                        <!-- Funny comment under the image -->
+                        <div class="funny-comment">
+                            <p>Go ahead, HIT ME! 😜</p>
+                        </div>
+                    </center>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column: Content -->
+                <div class="col-md-6">
+                    <h2 class="section-title text-primary">About Me</h2>
+                    <p class="text-muted">Hello, I'm Kathiravan, a passionate UI/UX Designer and Software Engineer
+                        dedicated to crafting intuitive, user-centered experiences that seamlessly integrate design with
+                        technology.</p>
+
+                    <div class="about-info">
+                        <div class="info-item">
+                            <strong class="text-secondary">Full Name:</strong> Kathiravan
+                        </div>
+                        <div class="info-item">
+                            <strong>Location:</strong> Kalarpathi, Krishnagiri, Tamil Nadu
+                        </div>
+                        <div class="info-item">
+                            <strong>Education:</strong> 3rd Year, Information Technology
+                        </div>
+                        <div class="info-item">
+                            <strong>Birthday:</strong> May 12
+                        </div>
+                        <div class="info-item">
+                            <strong>Languages:</strong> English, Tamil
+                        </div>
+                    </div>
+
+                    <h3 class="skills-title">Skills & Expertise</h3>
+                    <ul class="skills-list">
+                        <li><strong>UI/UX Design:</strong> Figma, Adobe XD, Prototyping, User Research</li>
+                        <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React, Node.js</li>
+                        <li><strong>Software Engineering:</strong> Full-Stack Development, Agile Methodologies</li>
+                        <li><strong>Cybersecurity:</strong> Ethical Hacking, Network Security</li>
+                    </ul>
+                </div>
+
+                <!-- Right Column: Image -->
+                <div class="col-md-6 text-center">
+                    <div class="image-wrapper">
+                        <img src="img/IMG_20231028_174249.jpg" alt="Kathiravan"
+                            class="about-img img-fluid mx-auto d-block rounded-circle shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="text-center mb-5 text-light">My Portfolio</h2>
+
+            <!-- Navigation Bar -->
+            <div class="project-nav text-center mb-4">
+                <ul class="list-unstyled d-inline-flex">
+                    <li class="mx-3 project-nav-item"><a href="#portfolio" class="text-light"
+                            onclick="filterProjects('all')">All</a></li>
+                    <li class="mx-3 project-nav-item"><a href="#portfolio" class="text-light"
+                            onclick="filterProjects('web')">Web</a></li>
+                    <li class="mx-3 project-nav-item"><a href="#portfolio" class="text-light"
+                            onclick="filterProjects('uiux')">UI/UX</a></li>
+                </ul>
+            </div>
+
+            <!-- Project Descriptions -->
+            <p class="text-center text-light mb-5">
+                Welcome to my portfolio! Explore a collection of innovative web projects and UI/UX designs.
+            </p>
+
+            <div class="row">
+                <!-- Project 1: Tourism Website -->
+                <div class="col-md-4 project web" id="project1">
+                    <div class="card custom-card">
+                        <img src="img/Screenshot (9).png" class="card-img-top" alt="Tourism Website">
+                        <div class="card-body">
+                            <h5 class="card-title">Tourism Website</h5>
+                            <p class="card-text">A tourism website built using HTML, CSS, JavaScript, and Bootstrap to
+                                provide details about tourist destinations.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal1">View
+                                Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: How-To Website for Card Guidance -->
+                <div class="col-md-4 project uiux" id="project2">
+                    <div class="card custom-card">
+                        <img src="img/Screenshot (10).png" class="card-img-top" alt="How-To Website">
+                        <div class="card-body">
+                            <h5 class="card-title">How-To Website</h5>
+                            <p class="card-text">A website designed to guide users in applying for various Indian cards
+                                like Aadhaar, Ration cards, etc. Built with HTML, CSS, JavaScript, and Bootstrap.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal2">View
+                                Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Personal Portfolio -->
+                <div class="col-md-4 project web" id="project3">
+                    <div class="card custom-card">
+                        <img src="img/Screenshot (8).png" class="card-img-top" alt="My Portfolio">
+                        <div class="card-body">
+                            <h5 class="card-title">My Portfolio</h5>
+                            <p class="card-text">A personal portfolio website showcasing my projects, built with
+                                ReactJS, HTML, CSS, and Bootstrap for a modern and dynamic experience.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal3">View
+                                Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: UI/UX Designs (WhatsApp & Flipkart) -->
+                <div class="col-md-4 project uiux" id="project4">
+                    <div class="card custom-card">
+                        <img src="img/Screenshot (48).png" class="card-img-top" alt="UI/UX Designs">
+                        <div class="card-body">
+                            <h5 class="card-title">UI/UX Designs</h5>
+                            <p class="card-text">UI/UX design work for WhatsApp and Flipkart, focusing on user
+                                experience and interface design improvements.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal4">View
+                                Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Project Details -->
+    <!-- Modal for Project 1 -->
+    <div class="modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content custom-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal1Label">Tourism Website</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/Screenshot (9).png" class="img-fluid rounded" alt="Tourism Website">
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Project Description</h6>
+                            <p>This tourism website is designed using HTML, CSS, JavaScript, and Bootstrap. It provides
+                                essential information about tourist destinations and helps users explore travel options.
+                            </p>
+                            <h6>Technologies Used:</h6>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <div class="d-flex">
+                                <a href="https://your-livestream-link.com" class="btn btn-success mr-3"
+                                    target="_blank">Live Demo</a>
+                                <a href="https://github.com/Kathitavan/tourism" class="btn btn-dark"
+                                    target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Project 2 -->
+    <div class="modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content custom-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal2Label">How-To Website</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/Screenshot (10).png" class="img-fluid rounded" alt="How-To Website">
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Project Description</h6>
+                            <p>This How-To website is designed to guide Indian citizens through the process of applying
+                                for cards like Aadhaar, Ration cards, etc. It is built using HTML, CSS, JavaScript, and
+                                Bootstrap.</p>
+                            <h6>Technologies Used:</h6>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <div class="d-flex">
+                                <a href="https://your-livestream-link.com" class="btn btn-success mr-3"
+                                    target="_blank">Live Demo</a>
+                                <a href="https://github.com/Kathitavan/How-To" class="btn btn-dark"
+                                    target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Project 3 -->
+    <div class="modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content custom-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal3Label">My Portfolio</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/Screenshot (8).png" class="img-fluid rounded" alt="My Portfolio">
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Project Description</h6>
+                            <p>This is my personal portfolio, showcasing various projects I've worked on. Built using
+                                ReactJS, HTML, CSS, and Bootstrap for a dynamic, interactive experience.</p>
+                            <h6>Technologies Used:</h6>
+                            <ul>
+                                <li>ReactJS</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <div class="d-flex">
+                                <a href="https://your-livestream-link.com" class="btn btn-success mr-3"
+                                    target="_blank">Live Demo</a>
+                                <a href="https://github.com/Kathitavan/portfolio" class="btn btn-dark"
+                                    target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Project 4 -->
+    <div class="modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content custom-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal4Label">UI/UX Designs</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/Screenshot (48).png" class="img-fluid rounded" alt="UI/UX Designs">
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Project Description</h6>
+                            <p>UI/UX designs created for WhatsApp and Flipkart, focusing on enhancing user interfaces
+                                and optimizing user experiences.</p>
+                            <h6>Technologies Used:</h6>
+                            <ul>
+                                <li>Adobe XD</li>
+                                <li>Figma</li>
+                                <li>Sketch</li>
+                            </ul>
+                            <div class="d-flex">
+                                <a href="https://your-livestream-link.com" class="btn btn-success mr-3"
+                                    target="_blank">Live Demo</a>
+                                <a href="https://drive.google.com/drive/folders/12R86Eo84pt2cbTojrt6MX8y0p1n-ESWn?usp=sharing"
+                                    class="btn btn-dark" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="text-light section-title text-center mb-5">My Skills</h2>
+            <div class="row">
+                <!-- Frontend Skills -->
+                <div class="col-lg-4 col-md-12 col-sm-12 skill-item mr-2" data-aos="fade-up">
+                    <h4 class="skill-category">Frontend Development</h4>
+                    <ul class="skill-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-logo" width="1773" height="2500"
+                                preserveAspectRatio="xMinYMin meet" viewBox="0 0 256 361" id="html">
+                                <path fill="#E44D26"
+                                    d="M255.555 70.766l-23.241 260.36-104.47 28.962-104.182-28.922L.445 70.766h255.11z">
+                                </path>
+                                <path fill="#F16529" d="M128 337.95l84.417-23.403 19.86-222.49H128V337.95z"></path>
+                                <path fill="#EBEBEB"
+                                    d="M82.82 155.932H128v-31.937H47.917l.764 8.568 7.85 88.01H128v-31.937H85.739l-2.919-32.704zM90.018 236.542h-32.06l4.474 50.146 65.421 18.16.147-.04V271.58l-.14.037-35.568-9.604-2.274-25.471z">
+                                </path>
+                                <path
+                                    d="M24.18 0h16.23v16.035h14.847V0h16.231v48.558h-16.23v-16.26H40.411v16.26h-16.23V0zM92.83 16.103H78.544V0h44.814v16.103h-14.295v32.455h-16.23V16.103h-.001zM130.47 0h16.923l10.41 17.062L168.203 0h16.93v48.558h-16.164V24.49l-11.166 17.265h-.28L146.35 24.49v24.068h-15.88V0zM193.21 0h16.235v32.508h22.824v16.05h-39.06V0z">
+                                </path>
+                                <path fill="#FFF"
+                                    d="M127.89 220.573h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576H127.89v31.937zM127.89 155.854v.078h77.143l.64-7.178 1.456-16.191.763-8.568H127.89v31.86z">
+                                </path>
+                            </svg>
+                            HTML
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                                alt="CSS Logo" class="skill-logo">
+                            CSS
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                                alt="JavaScript Logo" class="skill-logo">
+                            JavaScript
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-logo" width="2500" height="2500"
+                                preserveAspectRatio="xMinYMin meet" viewBox="0 0 256 256" id="bootstrap">
+                                <path fill="#563D7C"
+                                    d="M0 222.991C0 241.223 14.779 256 33.009 256H222.99C241.223 256 256 241.221 256 222.991V33.01C256 14.777 241.221 0 222.991 0H33.01C14.777 0 0 14.779 0 33.009V222.99z">
+                                </path>
+                                <path fill="#FFF"
+                                    d="M106.158 113.238V76.985h31.911c3.04 0 5.97.253 8.792.76 2.822.506 5.319 1.41 7.49 2.713 2.17 1.303 3.907 3.112 5.21 5.427 1.302 2.316 1.954 5.283 1.954 8.9 0 6.513-1.954 11.217-5.862 14.111-3.907 2.895-8.9 4.342-14.979 4.342h-34.516zM72.075 50.5v155h75.112c6.947 0 13.713-.868 20.298-2.605 6.585-1.737 12.446-4.414 17.584-8.032 5.137-3.618 9.226-8.286 12.265-14.002 3.04-5.717 4.559-12.483 4.559-20.298 0-9.697-2.352-17.982-7.055-24.856-4.704-6.875-11.832-11.687-21.384-14.437 6.947-3.328 12.194-7.598 15.74-12.808 3.545-5.21 5.318-11.722 5.318-19.538 0-7.236-1.194-13.314-3.582-18.235-2.388-4.92-5.753-8.864-10.095-11.831-4.341-2.967-9.551-5.102-15.63-6.404-6.078-1.303-12.808-1.954-20.189-1.954H72.075zm34.083 128.515v-42.549h37.121c7.381 0 13.315 1.7 17.802 5.102 4.486 3.401 6.73 9.081 6.73 17.041 0 4.053-.688 7.381-2.063 9.986-1.375 2.605-3.22 4.668-5.536 6.187-2.315 1.52-4.993 2.605-8.032 3.257-3.04.65-6.223.976-9.552.976h-36.47z">
+                                </path>
+                            </svg>
+                            Bootstrap
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                                alt="React Logo" class="skill-logo">
+                            React
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- UI/UX Skills -->
+                <div class="col-lg-3 col-md-12 col-sm-12 skill-item mr-2" data-aos="fade-up">
+                    <h4 class="skill-category">UI/UX Design</h4>
+                    <ul class="skill-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-logo" viewBox="0 0 24 24" id="figma">
+                                <path fill="#0ACF83"
+                                    d="M8 24c2.208 0 4-1.792 4-4v-4H8c-2.208 0-4 1.792-4 4s1.792 4 4 4z"></path>
+                                <path fill="#A259FF" d="M4 12c0-2.208 1.792-4 4-4h4v8H8c-2.208 0-4-1.792-4-4z"></path>
+                                <path fill="#F24E1E" d="M4 4c0-2.208 1.792-4 4-4h4v8H8C5.792 8 4 6.208 4 4z"></path>
+                                <path fill="#FF7262" d="M12 0h4c2.208 0 4 1.792 4 4s-1.792 4-4 4h-4V0z"></path>
+                                <path fill="#1ABCFE"
+                                    d="M20 12c0 2.208-1.792 4-4 4s-4-1.792-4-4 1.792-4 4-4 4 1.792 4 4z"></path>
+                            </svg>
+                            Figma
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-logo" width="307.692" height="300"
+                                id="adobe-xd">
+                                <path fill="#2e001e" d="M12.821 12.821h282.051V287.18H12.821Z"></path>
+                                <path fill="#ff2bc2" d="M0 0v300h307.692V0Zm12.821 12.821h282.051v274.358H12.821Z">
+                                </path>
+                                <path fill="#ff2bc2"
+                                    d="M223.462 126.026a17.6 17.6 0 0 0-7.436-1.282c-16.154 0-26.923 12.436-26.923 33.077 0 23.59 11.026 33.077 25.385 33.077a24.188 24.188 0 0 0 8.846-1.41v-63.462Zm-57.436 32.821c0-29.872 19.231-53.205 50.769-53.205a56.853 56.853 0 0 1 6.667.256V72.564a1.285 1.285 0 0 1 1.282-1.282h20.641c1.026 0 1.282.385 1.282 1.026v117.179a91.315 91.315 0 0 0 .641 12.564c0 .9 0 1.026-.769 1.41a76.367 76.367 0 0 1-32.821 7.436c-27.82.001-47.692-17.179-47.692-52.051Zm-43.718-20.769 35.9 69.615c.641 1.026.256 2.051-.769 2.051h-22.31a2.516 2.516 0 0 1-2.692-1.667q-12.308-25.385-25.128-52.692h-.258c-7.692 17.18-16.154 35.9-24.359 52.821a2.462 2.462 0 0 1-2.308 1.41H59.103c-1.282 0-1.41-1.026-.769-1.795l35.128-67.567-33.974-67.177a1.135 1.135 0 0 1 .9-1.923h22.048c1.282 0 1.923.256 2.308 1.41 8.077 17.051 16.282 33.846 23.974 51.026h.256c7.436-16.923 15.641-33.974 23.462-50.769.641-1.026 1.026-1.667 2.308-1.667h20.641c1.026 0 1.41.769.769 1.923Z">
+                                </path>
+                            </svg>
+                            Adobe XD
+                        </li>
+                        <li>Wireframing, Prototyping, User Research</li>
+                    </ul>
+                </div>
+
+                <!-- Other Skills -->
+                <div class="col-lg-4 col-md-12 col-sm-12 skill-item mr-2" data-aos="fade-up">
+                    <h4 class="skill-category">Other Skills</h4>
+                    <ul class="skill-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-logo" viewBox="0 0 128 128"
+                                id="python">
+                                <linearGradient id="a" x1="70.252" x2="170.659" y1="1237.476" y2="1151.089"
+                                    gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#5A9FD4"></stop>
+                                    <stop offset="1" stop-color="#306998"></stop>
+                                </linearGradient>
+                                <path fill="url(#a)"
+                                    d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137h-33.961c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491v-11.282c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548v-23.513c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zm-13.354 7.569c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z">
+                                </path>
+                                <linearGradient id="b" x1="209.474" x2="173.62" y1="1098.811" y2="1149.537"
+                                    gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#FFD43B"></stop>
+                                    <stop offset="1" stop-color="#FFE873"></stop>
+                                </linearGradient>
+                                <path fill="url(#b)"
+                                    d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655h-24.665c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412h-24.664v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zm-13.873 59.547c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z">
+                                </path>
+                                <radialGradient id="c" cx="1825.678" cy="444.45" r="26.743"
+                                    gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"></stop>
+                                    <stop offset="1" stop-color="#7F7F7F" stop-opacity="0"></stop>
+                                </radialGradient>
+                                <path fill="url(#c)"
+                                    d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z"
+                                    enable-background="new" opacity=".444"></path>
+                            </svg>
+                            Python
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-logo" viewBox="0 0 128 128" id="git">
+                                <path fill="#31251C"
+                                    d="M76.397 55.676c-2.737 0-4.775 1.344-4.775 4.579 0 2.437 1.343 4.129 4.628 4.129 2.784 0 4.676-1.641 4.676-4.23 0-2.934-1.693-4.478-4.529-4.478zm-5.471 22.84c-.648.795-1.294 1.64-1.294 2.637 0 1.989 2.536 2.587 6.021 2.587 2.885 0 6.816-.202 6.816-2.885 0-1.595-1.892-1.693-4.281-1.843l-7.262-.496zm14.725-22.69c.895 1.145 1.842 2.737 1.842 5.026 0 5.522-4.329 8.756-10.597 8.756-1.594 0-3.037-.198-3.932-.447l-1.642 2.637 4.875.297c8.608.549 13.682.798 13.682 7.413 0 5.723-5.024 8.955-13.682 8.955-9.006 0-12.438-2.289-12.438-6.218 0-2.24.996-3.431 2.737-5.076-1.643-.694-2.189-1.937-2.189-3.281 0-1.095.547-2.09 1.443-3.036.896-.944 1.891-1.891 3.084-2.985-2.438-1.194-4.278-3.781-4.278-7.464 0-5.721 3.781-9.65 11.393-9.65 2.14 0 3.435.197 4.578.498h9.703v4.228l-4.579.347zM98.983 46.786c-2.837 0-4.479-1.643-4.479-4.48 0-2.833 1.642-4.377 4.479-4.377 2.886 0 4.527 1.543 4.527 4.377.001 2.837-1.641 4.48-4.527 4.48zm-6.42 29.9v-3.929l2.539-.348c.696-.1.795-.249.795-.997v-14.627c0-.546-.148-.896-.647-1.044l-2.687-.946.547-4.028h10.301v20.646c0 .798.048.896.796.997l2.538.348v3.929h-14.182v-.001zM126.42 74.756c-2.141 1.043-5.274 1.99-8.112 1.99-5.92 0-8.158-2.386-8.158-8.011v-13.035c0-.297 0-.497-.399-.497h-3.482v-4.428c4.38-.499 6.12-2.688 6.667-8.111h4.728v7.067c0 .347 0 .498.398.498h7.015v4.975h-7.413v11.89c0 2.935.697 4.079 3.383 4.079 1.395 0 2.836-.347 4.03-.795l1.343 4.378z">
+                                </path>
+                                <path fill="#F34F29"
+                                    d="M52.7 61.7l-22.749-22.748c-1.309-1.31-3.434-1.31-4.744 0l-4.724 4.724 5.991 5.992c1.394-.47 2.99-.155 4.1.956 1.116 1.117 1.429 2.727.947 4.125l5.775 5.775c1.396-.481 3.009-.17 4.125.947 1.56 1.559 1.56 4.086 0 5.646-1.561 1.56-4.087 1.56-5.647 0-1.173-1.174-1.463-2.897-.869-4.342l-5.386-5.386-.001 14.174c.381.188.739.438 1.056.754 1.56 1.559 1.56 4.085 0 5.647-1.56 1.559-4.088 1.559-5.646 0-1.56-1.562-1.56-4.088 0-5.647.386-.385.831-.676 1.307-.871v-14.305c-.476-.194-.921-.484-1.307-.871-1.182-1.181-1.466-2.914-.86-4.365l-5.906-5.908-15.599 15.598c-1.311 1.311-1.311 3.436 0 4.747l22.749 22.748c1.31 1.31 3.434 1.31 4.746 0l22.642-22.644c1.311-1.31 1.311-3.436 0-4.746z">
+                                </path>
+                                <path fill="none" d="M1.58 37.928h124.84v52.143h-124.84z"></path>
+                            </svg>
+                            Git
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-logo" viewBox="0 0 32 32"
+                                id="visual-studio-code">
+                                <path fill="#1F9CF0"
+                                    d="m6.317 22.046-.629-.314 3.981-4.266.938 1.005-4.29 3.575zM20 25.602 5.688 10.268l.599-.299L20 22.54v3.062zm0-14.958-5.247 4.372-1.507-1.382L20 6.398v4.246zm6 13.189-4 2.4V5.766l4 2.4v15.667z">
+                                </path>
+                                <path fill="#0065A9"
+                                    d="m27.515 6.743-6-3.6c-.027-.016-.057-.024-.086-.037-.397-.238-.91-.195-1.239.157l-8.419 9.021-4.64-4.254a1.003 1.003 0 0 0-1.123-.157L3.597 9.078a1.001 1.001 0 0 0-.284 1.576L8.302 16l-4.989 5.346a.999.999 0 0 0 .284 1.576l2.411 1.206a.997.997 0 0 0 1.088-.127l4.879-4.066 8.215 8.802a.998.998 0 0 0 .731.318.994.994 0 0 0 .52-.167c.024-.012.05-.017.073-.031l6-3.6A1 1 0 0 0 28 24.4V7.6a1 1 0 0 0-.485-.857zM6.317 22.046l-.629-.314 3.981-4.266.938 1.005-4.29 3.575zM20 25.602 5.688 10.268l.599-.299L20 22.54v3.062zm0-5.776-3.759-3.446L20 13.248v6.578zm0-9.182-5.247 4.372-1.507-1.382L20 6.398v4.246zm6 13.189-4 2.4V5.766l4 2.4v15.667z">
+                                </path>
+                            </svg>
+                            VS Code
+                        </li>
+                        <li>Video and Photo Editing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="education" class="education-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">My Education</h2>
+            <div class="row">
+                <!-- School Education -->
+                <div class="col-md-6 mb-4 wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="card animated-card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center animated-title"><span
+                                    class="text-warning font-weight-bold">School Education</span></h5>
+                            <p class="card-text text-center"> <strong>1st to 10th Grade:</strong> Government Higher
+                                Secondary School, Kalarpathi, Krishnagiri</p>
+                            <p class="card-text text-center"><strong>11th & 12th Grade:</strong> Government Higher
+                                Secondary School, Mathur, Krishnagiri</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Computer Science & MS Office -->
+                <div class="col-md-6 mb-4 wow slideInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="card animated-card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center animated-title"><span
+                                    class="text-warning font-weight-bold">Computer Science & MS Office</span></h5>
+                            <p class="card-text text-center"><strong>Course Duration:</strong> 6 months</p>
+                            <p class="card-text text-center"><strong>Focus Areas:</strong> Frontend Development, C
+                                Language, MS Office</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- College Education -->
+                <div class="col-md-6 mb-4 wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.7s">
+                    <div class="card animated-card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center animated-title"><span
+                                    class="text-warning font-weight-bold">College Education</span></h5>
+                            <p class="card-text text-center"><strong>Course:</strong> B.Tech in Information Technology
+                            </p>
+                            <p class="card-text text-center"><strong>Institute:</strong> Varuvan Vadivelan Institute of
+                                Technology, Dharmapuri</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fullstack Development Course -->
+                <div class="col-md-6 mb-4 wow slideInRight" data-wow-duration="1s" data-wow-delay="0.9s">
+                    <div class="card animated-card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center animated-title"><span
+                                    class="text-warning font-weight-bold">Full-Stack Development</span></h5>
+                            <p class="card-text text-center"><strong>Course:</strong> NxtWave Full-Stack Development</p>
+                            <p class="card-text text-center"><strong>Focus Areas:</strong> Full-stack Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Styles for Animation Effects -->
+
+    <!-- Add WOW.js Library for Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        // Initialize WOW.js for animations
+        new WOW().init();
+    </script>
+
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">Contact Me</h2>
+            <!-- Updated Form to send directly to Gmail -->
+            <form action="mailto:sachinkathiravan455@gmail.com" method="POST" enctype="text/plain">
+                <div class="form-row">
+                    <div class="form-group col-md-6 wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control animated-input" id="name" name="name"
+                            placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group col-md-6 wow slideInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control animated-input" id="email" name="email"
+                            placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class="form-group wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+                    <label for="message">Message</label>
+                    <textarea class="form-control animated-input" id="message" name="message" rows="5"
+                        placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary wow fadeInUp" data-wow-duration="1s"
+                    data-wow-delay="0.9s">Send Message</button>
+            </form>
+
+            <!-- Social Media Links -->
+            <div class="social-links text-center mt-5">
+                <h4>Follow Me on:</h4>
+                <ul class="list-unstyled">
+                    <li class="d-inline-block mx-3">
+                        <a href="https://youtube.com/@mediaportal-i6k?si=uJ7wLQB5gDgFCutd" target="_blank"
+                            class="text-white">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="d-inline-block mx-3">
+                        <a href="https://x.com/kathiravan1507?t=a11HVNXbgwZvnoXfCq1-wA&s=08 " target="_blank"
+                            class="text-white">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="d-inline-block mx-3">
+                        <a href="https://www.instagram.com/k_kathiravan_sachin/profilecard/?igsh=MWdpdDFtbnpqc211aA== "
+                            target="_blank" class="text-white">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="d-inline-block mx-3">
+                        <a href="https://www.linkedin.com/in/kathiravan-sachin-95a9a02a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                            target="_blank" class="text-white">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add WOW.js Library for Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        // Initialize WOW.js for animations
+        new WOW().init();
+    </script>
+
+    <!-- Add Font Awesome for Social Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <footer style="background-color: #121212; color: #ffffff; padding: 50px 0; font-family: 'Roboto', sans-serif;">
+        <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+            <!-- Top Section with Brand and Tagline -->
+            <div style="margin-bottom: 40px;">
+                <h1 style="font-size: 32px; margin-bottom: 10px; font-weight: 700;">Kathiravan</h1>
+                <p style="font-size: 18px; color: #a0a0a0;">Innovating the Web | Crafting Unique UI/UX Experiences</p>
+            </div>
+            
+            <!-- Social Media Icons with Animations -->
+            <div style="margin-bottom: 30px;">
+                <a href="https://twitter.com/kathiravan1507" target="_blank" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://github.com/yourgithubusername" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yourlinkedinusername/" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/yourinstagramusername/" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+    
+            <!-- Navigation Links -->
+            <div style="margin-bottom: 30px; font-size: 16px;">
+                <a href="#home" class="footer-link">Home</a>
+                <a href="#about" class="footer-link">About</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#services" class="footer-link">Services</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+    
+            <!-- Newsletter Signup -->
+            <div style="margin-bottom: 40px;">
+                <p style="margin-bottom: 10px; font-size: 16px; color: #a0a0a0;">Subscribe to my Newsletter for Updates</p>
+                <form style="display: flex; justify-content: center; gap: 10px;">
+                    <input type="email" placeholder="Your Email" 
+                        style="padding: 10px; border: none; border-radius: 25px; width: 300px;">
+                    <button type="submit" 
+                        style="padding: 10px 20px; background-color: #00bcd4; color: #ffffff; border: none; border-radius: 25px; cursor: pointer;">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+    
+            <!-- Footer Bottom -->
+            <div style="border-top: 1px solid #333; padding-top: 20px; font-size: 14px; color: #a0a0a0;">
+                <p>&copy; 2024 Kathiravan. All Rights Reserved.</p>
+                <p>Designed with ❤️ by Kathiravan</p>
+            </div>
+        </div>
+    </footer>
+    
+  
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
